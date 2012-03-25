@@ -1,0 +1,31 @@
+Design Document
+==================
+Author: Bertrand Brompton
+Version: 00001
+
+Contents Page
+===============
+1. Class Design
+2. Data Design
+3. Architecture Design
+4. Interface Design
+
+
+Class Design
+===============
+
+ChatClient - This class is used to create a client. In order to work a server must already exist. This class also creates the Client GUI. It then creates a connection with the server.
+ChatServer - This class is used to create a server. The server maintains a list of connections.
+In - This class is responsible for managing input data.
+Out - This class is responsible for managing output data. 
+Connection - This class represents a connection with the server
+ConnectionListener - This class checks for incoming messages and broadcasts them to all chat Clients.
+
+Data Design
+=============
+
+Architecture Design
+====================
+
+Interface Design
+=================
